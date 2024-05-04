@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.custom-box-shadow{
+  border:2px solid black
+}
+
+.custom-box-shadow:hover {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 8px 0px, rgba(14, 30, 37, 0.32) 0px 2px 32px 0px;
+  border:none
+}
